@@ -2,8 +2,6 @@ const {Client, Intents} = require('discord.js');
 const client = new Client({intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES]});
 const Config = require('./config.json')
 
-console.log(Config.DISCORD_TOKEN)
-
 client.login(Config.DISCORD_TOKEN);
 
 client.on('ready', () => {
