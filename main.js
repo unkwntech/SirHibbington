@@ -9,7 +9,7 @@ client.on('ready', () => {
 })
 
 client.on('messageCreate', (message) => {
-    if(message.mentions.has(client.user.id))
+    if(message.mentions.has(client.user.id) && !message.mentions.everyone)
         message.reply("<@421395302495420426>");
 })
 
