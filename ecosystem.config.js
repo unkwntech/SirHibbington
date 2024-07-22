@@ -8,7 +8,7 @@ module.exports = {
   deploy: {
     production: {
       user: "achapman",
-      host: "192.168.1.203",
+      host: "64.251.22.21",
       path: "/home/achapman/projects/SirHibbington/",
       repo: "git@github.com:unkwntech/sirhibbington.git",
       ref: "origin/main",
