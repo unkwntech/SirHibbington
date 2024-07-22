@@ -13,7 +13,7 @@ module.exports = {
       repo: "git@github.com:unkwntech/sirhibbington.git",
       ref: "origin/main",
       key: "~/.ssh/id_ed25519",
-      "post-deploy": "cd projects/SirHibbington; npm i; pm2 reload ecosystem.config.js; rm -rf /home/achapman/projects/SirHibbington/source",
+      "post-deploy": "npm i; pm2 reload ecosystem.config.js; rm -rf /home/achapman/projects/SirHibbington/source",
     },
   },
 };
