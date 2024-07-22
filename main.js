@@ -6,6 +6,7 @@ client.login(Config.DISCORD_TOKEN);
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}`);
+	console.log(`foobar`);
 })
 
 client.on('messageCreate', (message) => {
