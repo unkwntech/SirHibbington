@@ -18,6 +18,7 @@
   "homepage": "https://github.com/unkwntech/SirHibbington#readme",
   "dependencies": {
     "discord.js": "^13.6.0",
+    "dotenv": "^16.4.7",
     "pm2": "^5.4.2"
   }
 }
